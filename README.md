@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Wine Reviews and Ratings Analysis
 
 ## Overview:
@@ -41,3 +42,7 @@ create a document describing the schema of the database (this can be a markdown 
 
 
 ## Challenges and Difficulties Encountered
+=======
+# Wine_Ratings_Prices
+Module 20 Project:  Analysis of wine ratings, prices, and reviews by country/region.
+>>>>>>> parent of 71a335d (test merge)
