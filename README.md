@@ -1,6 +1,3 @@
-# Wine_Ratings_Prices
-Module 20 Project:  Analysis of wine ratings, prices, and reviews by country/region.
-
 # Wine Reviews and Ratings Analysis
 
 ## Overview:
@@ -16,17 +13,19 @@ Module 20 Project:  Analysis of wine ratings, prices, and reviews by country/reg
 (Description of communication protocols)
 
 (Description of technologies to be used)
+This project will be utilizing Pandas, Python, Postgres, AWS and Tableau. 
+
 #### Data Cleaning and Analysis
 Pandas will be used to clean the data and perform an exploratory analysis. Further analysis will be completed using Python.
 
 #### Database Storage
-Mongo is the database we intend to use, and we will integrate Flask to display the data.
+Postgres is the database we intend to use, and AWS to host.
 
 #### Machine Learning
 SciKitLearn is the ML library we'll be using to create a classifier. Our training and testing setup is ___. Extra ML verbiage here.
 
 #### Dashboard
-In addition to using a Flask template, we will also integrate D3.js for a fully functioning and interactive dashboard. It will be hosted on ___.
+We will be using Tableau to visualize and story board our data.
 
 
 ### Machine Learning Model
