@@ -37,7 +37,7 @@ How does this model work?
 ### Database
 (Describe database)
 create a document describing the schema of the database (this can be a markdown document, or an ERD).
-
+Testing my portion of the readme - janine
 
 
 ## Challenges and Difficulties Encountered
