@@ -35,8 +35,27 @@ How does this model work?
 
 
 ### Database
-(Describe database)
-create a document describing the schema of the database (this can be a markdown document, or an ERD).
+
+For the database, we will be using one main table to reflect the data scraped.
+This will apply for all years in review. The intention is to build these tables in PostgreSQL.
+
+FieldNames:
+wine_year 	int
+country 	varchar(50)
+description 	varchar(250)
+designation [pk] varchar(100)
+points 		int
+price 		int
+province 	varchar(50)
+region_1 	varchar(50)
+region_2 	varchar(50)
+variety [pk] 	varchar(50)
+winery [pk] 	varchar(50)
+
+
+- Different tables will be created from this main table
+- Anticipate joining tables (different year datasets) by primary keys
+
 
 
 
