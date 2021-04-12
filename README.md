@@ -78,6 +78,22 @@ winery        [pk] 	varchar(50)
 
 - Different tables will be created from this main table
 - Anticipate joining tables (different year datasets) by primary keys to run the anlaysis from. 
+=======
+wine_year 	int
+country 	varchar(50)
+description 	varchar(250)
+designation [pk] varchar(100)
+points 		int
+price 		int
+province 	varchar(50)
+region_1 	varchar(50)
+region_2 	varchar(50)
+variety [pk] 	varchar(50)
+winery [pk] 	varchar(50)
+
+
+- Different tables will be created from this main table
+- Anticipate joining tables (different year datasets) by primary keys
 
 =======
 (Describe database)
