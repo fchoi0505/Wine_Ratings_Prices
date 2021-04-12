@@ -101,9 +101,11 @@ winery [pk] 	varchar(50)
 
 =======
 (Describe database)
-Create a document describing the schema of the database (this can be a markdown document, or an ERD). ERD to be uploaded.
+Create a document describing the schema of the database (this can be a markdown document, or an ERD). 
 
+***ERD***
 
+![Preliminary ERD](https://github.com/fchoi0505/Wine_Ratings_Prices/blob/main/Resources/PrelimDatabase.png)
 
 ## Challenges and Difficulties Encountered
 
