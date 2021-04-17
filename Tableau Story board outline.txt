@@ -1,0 +1,14 @@
+﻿1. What is our data, what we are trying to achieve and what the data looks like
+2. Initial data that we graph out, which shows the giant skew
+   1. Show the while statistical graphing and is the unabridged version
+3. Show the work Janine did
+   1. Has the new data that excludes the top 1% (the wines that are stupidly expensive)
+   2. Display the graphs, describe what is going on
+   3. Show how our ML
+      1. What the outcome is
+      2. How accurate is our ML
+   4. We can show how it works in various countries
+4. Show the finalized graphs that show the normalized bell curve
+   1. What is the % quartile that we will use to normalize the graph?
+   2. Graph the new bell curve and run it through our ML
+   3.
