@@ -2,12 +2,12 @@
 
 ## Overview:
 (Selected topic)
-This project is meant to determine whether the rating of a particular wine can be predicted the following year via the use of machine learning. 
+This project is meant to determine whether the rating of a particular wine can be predicted the following year via the use of a machine learning model. 
 
 ## Purpose:
 (Reason why selected topic, description of source data, questions hope to answer with the data)
 
-The team has selected the topic of wine. The reason why this topic was selected is the wine industry is increasingly incorporating Machine Learning and AI into their business models and operations. Wine's popularity has increased among consumers and especially more so during this pandemic. Our source data is a web scrape from the website winemag.com. The question we hope to answer, "Is the price of a particular wine predictive of the rating it can have the following year?"
+The team has selected the topic of wine. The reason why this topic was selected is the wine industry is increasingly incorporating Machine Learning and AI into their business models and operations. Wine's popularity has increased among consumers and especially more so during this pandemic. Our source data is a web scrape from the website winemag.com. The question we hope to answer, "Is the rating/ quality of a wine predictive from one to the following year?"
 
 ## Project Details:
 
@@ -19,29 +19,24 @@ The team will be using Git Hub, Slack, Whats App, and Zoom meetings to communica
 (Description of technologies to be used)
 
 
-This project will be using Google Colaboratory, Pandas, Python, Postgres, AWS, Machine Learning and Tableau.
-We will be utilizing Google Colaboratory as our main platform to build our queries, dataframes and for our machine learning. With Python, we will be building our data structures around Pandas and Matplotlib to import, clean and sift through out data. We will be using AWS and Postgres to host our dataframes and then will utilize Tableau to showcase our data and results in an easy to read platform.
-=======
-This project will be utilizing Google Colaboratory, Pandas, Python, Postgres, AWS, Machine Learning and Tableau. 
-
+This project will be using Google Colaboratory, Pandas, Python, Postgres, AWS, Machine Learning and Tableau. We will be utilizing Google Colabratory as our main platform to house our framework of dataframes, queries and machine learning model. With Python, we will be building our data structures with Pandas. Pands will be used to clean and sift through the data. Matplotlib will be used as an additional library to create visuals of the data and the analysis of the data. We will be using AWS and Postgres SQL to host our database. Tableau will then be used to create a dashboard of visuals to showcase the projects findings for eae of consumption.
 
 --(Outline of the project (this may include images, but should be easy to follow and digest)
 
 --(Description of the analysis phase of the project)
 
-#### Data Cleaning and Analysis
+Data Cleaning and Analysis:
 
-We will be using Pandas and Matplotlib to clean the data and perform an exploratory data analysis. Further analysis will be completed using a variety of Python libraries as suited for the task such as Numpy. We are using Matplotlib for its statistical powers to clean up information and preliminary graphing. 
-=======
-Pandas will be used to clean the data and perform an exploratory data analysis. Further analysis will be completed using a variety of Python libraries as suited for the task such as Numpy.
+We will be using Pandas and Matplotlib to clean the data and perform an exploratory data analysis. Further analysis will be completed using a variety of Python libraries as suited for the task such as Numpy. We are using Matplotlib for its statistical powers to clean up information and preliminary graphing. Null values will be dropped along with [insert column names here]
 
 
-#### Database Storage
+Database Storage
 
 Postgres is the database we intend to use, and AWS to host the respective database.
 
-#### Machine Learning
-SciKitLearn is the ML library we'll be using to create a classifier. Our training and testing setup is a supervised learning model. The specificed model that will be deployed for the project will be linear regression.
+Machine Learning
+
+SciKitLearn is the ML library we'll be using to create a classifier. Our training and testing setup is a supervised learning model. The specificed model that will be deployed for the project will be a logistic regression model.
 
 #### Dashboard
 
