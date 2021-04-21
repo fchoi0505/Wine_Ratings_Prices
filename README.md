@@ -24,6 +24,10 @@ This project will be using Google Colaboratory, Pandas, Python, Postgres, AWS, M
 
 --(Outline of the project (this may include images, but should be easy to follow and digest)
 
+The outline we have planned ofr the project is as follows:
+
+  - 
+
 **--(Description of the analysis phase of the project)**
 
 **_Data Cleaning and Analysis:_**
