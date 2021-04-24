@@ -38,25 +38,19 @@ Postgres is the database we intend to use, and AWS to host the respective databa
 For the database, we will be using one main table to reflect the data scraped.
 This will apply for all years in review. The intention is to build these tables in PostgreSQL.
 
-   ** **FieldNames:**<br/>
-    wine_year<br/> 	  
+   ** **FieldNames:**<br/> 	  
     country<br/>
-    description<br/>
-    designation [pk]<br/>
-    points<br/>
-    price<br/>
-    province<br/>
-    region_1<br/>
-    region_2<br/>
-    variety [pk]<br/>
-    winery [pk]<br/>**
+    wine_type<br/>
+    price_dollars<br/>
+    ratings_points<br/>
+    **
 
-- Different tables will be created from this main table
-- Anticipate joining tables (different year datasets) by primary keys to run the anlaysis from. 
+- This table will be used for our machine learning model & we anticipate to only pass through numerical values.
+- We have classified the countries into regions and anticipate joining tables by the country column to run additional metrics.
 
 **ERD**
-*This is a preliminary copy of our BRD*
-![Preliminary ERD](https://github.com/fchoi0505/Wine_Ratings_Prices/blob/main/Resources/PrelimDatabase.png)
+*This is an updated copy of our BRD*
+![Updated ERD](https://github.com/fchoi0505/Wine_Ratings_Prices/blob/main/Resources/UpdatedDatabase.png)
 
 
 
