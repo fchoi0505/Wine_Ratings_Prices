@@ -7,7 +7,7 @@ This project is meant to determine whether the rating of a particular wine can b
 ## Purpose:
 (Reason why selected topic, description of source data, questions hope to answer with the data)
 
-The team has selected the topic of wine. The reason why this topic was selected is the wine industry is increasingly incorporating Machine Learning and AI into their business models and operations. Wine's popularity has increased among consumers and especially more so during this pandemic. Our source data is a web scrape from the website winemag.com. The question we hope to answer, "Is the rating/ quality of a wine predictive from one to the following year?"
+The team has selected the topic of wine. The reason why this topic was selected is the wine industry is increasingly incorporating Machine Learning and AI into their business models and operations. Wine's popularity has increased among consumers and especially more so during this pandemic. Our source data is a web scrape from the website winemag.com. The data had a variety of data points points such as review of each particular type of wine, its variety, the region it was grown in, county and a finlly a rating of that particular wine. The question we hope to answer, "Is the rating/ quality of a wine predictive from one to the following year?"
 
 ## Project Details:
 
@@ -24,9 +24,17 @@ This project will be using Google Colaboratory, Pandas, Python, Postgres, AWS, M
 
 --(Outline of the project (this may include images, but should be easy to follow and digest)
 
-The outline we have planned ofr the project is as follows:
+The outline we have planned for the project is as follows:
 
-  - 
+  - Selected a topic to study.
+  - Find an appropriate data set related to that topic.
+  - Review that data set found and preform an exploratory analysis to formulate the question to be answered. 
+  - Clean that data to start to formulate the answer to our ask. 
+  - Create the appropriate machine learning model to answer the question we are studying.
+  - Train the model selected.
+  - Run a confirmation analysis of our results to determine if our model was accurate and correctly diciphered the data.
+  - Create the visual that support our conclusion from the data.
+  - Written report and presentation based on the findings.
 
 **--(Description of the analysis phase of the project)**
 
@@ -87,6 +95,8 @@ We have selected Logistic regression for its excellent fit as a classifying algo
 
 --(Description of preliminary feature engineering and preliminary feature selection, including decision-making process)
 
+  Beginning our process for feature engineering the team took a high level view of the data. A group concensus was reached to drop the Null values, our data set was made of 150,000 rows so dropping the null values was expected not to negatively impact the final data set used to train the model on. Once dropping the null values the data set still had 59000 rows and a multitude of columns. Dropping the null values help also limit the number of outliers remaining in the data set and it also made the outliers much more pronouced. We dealt with the outliers by using preliminary visualizations to get a birds eye view of the remianing data.  Once removing the outliers and or acounting for the onces that could not be removed we began to bin the data. This was done to make the model more robust and to prevent or reduce overfitting.The risk of this is of course preformance but the team believed a sacrifice of speed for accuracy was a worthwhile trade off in the end. Another reason for the binning is because the data set was less than 100000 rows and we had less than 50 unique values for countries to bin by whihc made the risk of over fitting far less likeyl. The team then proceeded with grouping. We grouped by country, and looked into the rating of wine by country and compared countries such as the the US vs the next 5 highest rated countries. We also used numerical grouping by getting the mean of a particular countries wine. 
+
 How are you training your model?
 
 We will be using SkiKit Learn to train the model and use the data points of rating and price grouped by country. The data will be split 70-30 with 70% of the data being used to train the model while the remianing data is used for a test base. The basis of training will consist of finding if a particular wine chosen is a good wine as classfied per our buckets or a bad wine. 
@@ -110,4 +120,4 @@ We will be using Tableau to visualize and story board our data for ease of use a
 
 ## Challenges and Difficulties Encountered
 
-This project is filled with challenges that hones and expanded the skillset of the team. The first challenge faced was git and its function with how it operated our project management. Git was a challenge for us due to the team not coming from a software engineering background, but a core fundamental theme of data science is the ability to problem solve and overcome adversity when least expecting it. Another challenge braved by the team was the data, as there was a great deal of variation between the data set years. This variation made it difficult to sift through the different data points and determine which points were best to be compare, classify, and analyze. The data set was a not a data set we scraped ourselves. This provided a real world like challenge where the team had to determine data integrity and what model would be best to use for such a data set. Additionally there was the challenge of time, just a a real world scenario where a deliverable must be given within a a deadline that is production ready. Our team endured such a constraint, and just like the Avengers from Marvel we not only rose to meet the challenge but thoroughly succeeded. 
+This project is filled with challenges that hones and expanded the skillset of the team. The first challenge faced was git and its function with how it operated our project management. Git was a challenge for us due to the team not coming from a software engineering background, but a core fundamental theme of data science is the ability to problem solve and overcome adversity when least expecting it. Another challenge braved by the team was the data, as there was a great features to choose from from an egineering standpoint. This variety made it difficult to sift through the different data points and determine which points were best to be compare, classify, and analyze. The data set was a not a data set we scraped ourselves. This provided a real world like challenge where the team had to determine data integrity and what model would be best to use for such a data set. Additionally there was the challenge of time, just as a real world scenario where a deliverable must be given within a a deadline that is production ready. Our team endured such a constraint, and just like the Avengers from Marvel we not only rose to meet the challenge but thoroughly succeeded. 
