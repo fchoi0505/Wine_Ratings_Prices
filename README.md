@@ -50,7 +50,7 @@ Postgres is the database we intend to use, and AWS to host the respective databa
 For the database, we will be using one main table to reflect the data scraped.
 This will apply for all years in review. The intention is to build these tables in PostgreSQL.
 
-   ** **FieldNames:**<br/> 	  
+   ** **FieldNames:**<br> 	  
     country<br/>
     wine_type<br/>
     price_dollars<br/>
