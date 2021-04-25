@@ -11,5 +11,7 @@
 4. Show the finalized graphs that show the normalized bell curve
    1. What is the % quartile that we will use to normalize the graph?
    2. Graph the new bell curve and run it through our ML
-   
-https://public.tableau.com/profile/benjamin.lew8746#!/vizhome/project_wine/Dashboard1?publish=yes
+ 
+
+Tableau story
+https://public.tableau.com/profile/benjamin.lew8746#!/vizhome/project_wine/Thewinestory?publish=yes
