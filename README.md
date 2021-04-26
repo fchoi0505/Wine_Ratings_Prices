@@ -19,7 +19,10 @@ The team will be using Git Hub, Slack, Whats App, and Zoom meetings to communica
 
 _(Description of technologies to be used)_
 
-This project will be using Google Colaboratory, Pandas, Python, Postgres, AWS, Machine Learning and Tableau. We will be utilizing Google Colabratory as our main platform to house our framework of dataframes, queries and machine learning model. With Python, we will be building our data structures with Pandas. Pandas will be used to clean and sift through the data. Matplotlib will be used as an additional library to create visuals of the data and the analysis of the data. We will be using AWS and Postgres SQL to host our database. Tableau will then be used to create a dashboard of visuals to showcase the projects findings for ease of consumption.
+
+This project will be using Google Colaboratory, Pandas, Python, Postgres, AWS, Machine Learning and Tableau.
+We will be utilizing Google Colaboratory as our main platform to build our queries, dataframes and for our machine learning. With Python, we will be building our data structures around Pandas and Matplotlib to import, clean and sift through out data. We will be using AWS and Postgres to host our dataframes, and will be utilizing Tableau's story functions to showcase our some of our findings as well as to display our data in an easy to digest format.
+The Tableau story will be posted here: https://public.tableau.com/profile/benjamin.lew8746#!/vizhome/project_wine/Thewinestory
 
 
 --(Outline of the project (this may include images, but should be easy to follow and digest)
