@@ -113,7 +113,8 @@ Logistic regression works by modeling the relationship between one or two data p
 #### Dashboard
 
 We will be using Tableau to visualize and story board our data for ease of use and consumption. Tableau will also allow our visualization to be more dynamic and answer follow up questions that may arise from our analysis. 
-
+* In our Tableau storyboard, we will be analyzing our data set by comparing the different data points against each other. On the first half of the story board, we are looking at how the averages of both points and prices vary across the world by country as well as by region. For this information, we are looking to understand what is the production levels of the wine, what the cost on average (per country and region), as well as what are the general price points are per region. Diving in deeper with it, we are then able to cross analyze the points to price ratios per each region/country's wine production.
+* In the second half of the Tableau story, we are diving into the information for what the top 5 wines produced were. We were able to identify which region produced the best wine, most cost effective wine, as well as the worst value.
 
 ## Challenges and Difficulties Encountered
 
