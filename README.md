@@ -45,14 +45,14 @@ The outline we have planned for the project is as follows:
 
 We will be using Pandas and Matplotlib to clean the data and perform an exploratory data analysis. Further analysis will be completed using a variety of Python libraries as suited for the task such as Numpy. We are using Matplotlib for its statistical powers to clean up information and preliminary graphing. Null values will be dropped along with ^^^^[insert column names here]^^^
 
-^^^^Describe Linear Regression and screenshots?^^^^
+
 
 **_Database Storage_**
 
 Postgres is the database we intend to use, and AWS to host the respective database.
 
 For the database, we will be using one main table to reflect the data scraped.
-^^^^This will apply for all years in review. (2017 and 2018?)^^^^ The intention is to build these tables in PostgreSQL.
+^^^^This will apply for all years in review. (2017 only)^^^^ The intention is to build these tables in PostgreSQL.
 
    ** **FieldNames:**<br> 	  
     country<br/>
@@ -81,6 +81,7 @@ Data set links:
 
 We will be using the 2017 data set to train and test our machine learning model. In order to validate the results of our model, we scraped the same data source for the following year (2018) with similar data points in order to validate our model ask.  ^^^^Refer to Linear Regression?^^^^
 
+^^^^Describe Linear Regression and screenshots?^^^^
 
 (Describe model)
 Which model did you choose and why? 
@@ -94,7 +95,7 @@ The model does not require a great deal of tuning, is quickly deployable, easy t
 
 Beginning our process for feature engineering the team took a high level view of the data. A group concensus was reached to drop data columns not relevant to the analysis and to drop the Null values.  Because our data set was made of 150,000 rows, dropping the null values would not negatively impact the final data set used to train the model on. Once dropping the null values the data set still had 59000 rows and a multitude of columns. Dropping the null values help also limit the number of outliers remaining in the data set and it also made the outliers much more pronouced. We dealt with the outliers by using preliminary visualizations to get a birds eye view of the remaining data.  
 
-^^^^Once removing the outliers and or acounting for the onces that could not be removed we began to bin the data. This was done to make the model more robust and to prevent or reduce overfitting.The risk of this is of course preformance but the team believed a sacrifice of speed for accuracy was a worthwhile trade off in the end. Another reason for the binning is because the data set was less than 100000 rows and we had less than 50 unique values for countries to bin by which made the risk of over fitting far less likeyl. The team then proceeded with grouping. We grouped by country, and looked into the rating of wine by country and compared countries such as the the US vs the next 5 highest rated countries. We also used numerical grouping by getting the mean of a particular countries wine. (Combine with description on machine learning set-up for good wine vs. great wine)^^^^ 
+^^^^Once removing the outliers and or acounting for the onces that could not be removed we began to bin the data. This was done to make the model more robust and to prevent or reduce overfitting.The risk of this is of course preformance but the team believed a sacrifice of speed for accuracy was a worthwhile trade off in the end. Another reason for the binning is because the data set was less than 100000 rows and we had less than 50 unique values for countries to bin by which made the risk of over fitting far less likeyl. The team then proceeded with grouping. We grouped by country, and looked into the rating of wine by country and compared countries such as the the US vs the next 5 highest rated countries. We also used numerical grouping by getting the mean of a particular countries wine. (Combine with description on machine learning set-up for good wine vs. great wine) --- good wine vs. great wine grouping^^^^ 
 
 --^^^^(Description of preliminary data preprocessing) (Change to database modeling?)^^^^
 
@@ -125,9 +126,10 @@ How does this model work?
 
 Logistic regression works by modeling the relationship between one or two data points or classes. Logistic regression will work for the team's needs by taking our data points of rating and features of a discrete response. Since what we are measuring is a discreate value, the regression model will measure the change in that response over time. As the model is trained the model will indicate how likely a wine is a good wine or lesser quality wine.
 
+^^^^Was ask answered?  Add info on additional model/execution for US and Rest of World with screenshots^^^^
 
 ### Result Summary
-^^^^Was ask answered?  Add info on additional model/execution for US and Rest of World with screenshots^^^^
+
 
 
 #### Dashboard
