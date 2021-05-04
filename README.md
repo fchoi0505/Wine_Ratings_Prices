@@ -134,7 +134,9 @@ Logistic regression works by modeling the relationship between one or two data p
 
 #### Dashboard
 
-We will be using Tableau to visualize and story board our data for ease of use and consumption. Tableau will also allow our visualization to be more dynamic and answer follow up questions that may arise from our analysis.   ^^^^Description of each tab's visual and what information is being displayed^^^^
+We will be using Tableau to visualize and story board our data for ease of use and consumption. Tableau will also allow our visualization to be more dynamic and answer follow up questions that may arise from our analysis. 
+* In our Tableau storyboard, we will be analyzing our data set by comparing the different data points against each other. On the first half of the story board, we are looking at how the averages of both points and prices vary across the world by country as well as by region. For this information, we are looking to understand what is the production levels of the wine, what the cost on average (per country and region), as well as what are the general price points are per region. Diving in deeper with it, we are then able to cross analyze the points to price ratios per each region/country's wine production.
+* In the second half of the Tableau story, we are diving into the information for what the top 5 wines produced were. We were able to identify which region produced the best wine, most cost effective wine, as well as the worst value.
 
 
 # Result Summary
@@ -142,6 +144,7 @@ We will be using Tableau to visualize and story board our data for ease of use a
 Our results from the logistic regression model gave us a moderate correlating value of .74 and when we ran this model by filtering out countries we got a higher value of .8 indicating a strong correlation. We validated of logistic regression values witha confusion matrix and multiple linear regression models. The linear regression models were done  to confrim the relationship the team was observing and testing were actual existing relationships. The linear regression models had correlating R values of .74. A borderline moderate correlation and strong correlating value is a result that is mathematically sound enough for the team to conclude our results are accurate especially in a simulated real world environemnt sense. The results we found indicate that yes wine rating is predictive in a given year.
 
 These results can help wine manufacturers understand how to better effectively position their wine to get a higher rating. This leveraging our the teams results can then drive sales and increase revenue for the company that acts upon our findings. This can lead to greater market share capture and growth for a winery. 
+
 
 ## Challenges and Difficulties Encountered
 
