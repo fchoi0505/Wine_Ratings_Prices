@@ -3,12 +3,12 @@
 ## Overview:
 _(Selected topic)_
 
-This project is meant to determine whether the rating of a particular wine can be predicted the following year via the use of a machine learning model.   Through the duration of the project, the model was evolved using ratings/points and prices.
+This project is meant to determine whether the rating of a particular wine can be predicted the following year via the use of a machine learning model.   Through the duration of the project, the model has evolved using ratings/points and prices.
 
 ## Purpose:
 _(Reason why selected topic, description of source data, questions hope to answer with the data)_
 
-The team has selected the topic of wine. The reason why this topic was selected is the wine industry is increasingly incorporating Machine Learning and AI into their business models and operations. Wine's popularity has increased among consumers and especially more so during this pandemic. Our source data is from the website winemag.com.  The data had a variety of data points such as review of each particular type of wine, its variety, the region it was grown in, county, price, and a finlly a rating (e.g. points) of that particular wine. The question we hoped to answer initially was, "Is the rating/ quality of a wine predictive from one to the following year?", but through the course of the project, the question evolved to, "Is rating predictive of price for a given year?"
+The team has selected the topic of wine. The reason why this topic was selected is the wine industry is increasingly incorporating Machine Learning and AI into their business models and operations. Wine's popularity has increased among consumers and especially more so during this pandemic. Our source data is from the website winemag.com.  The data had a variety of data points such as review of each particular type of wine, its variety, the region it was grown in, country, price, and a finally a rating (e.g. points) of that particular wine. The question we hoped to answer initially was, "Is the rating/ quality of a wine predictive from one to the following year?", but through the course of the project, the question evolved to, "Is rating predictive of price for a given year?"
 
 ## Project Details:
 
@@ -16,13 +16,13 @@ The team has selected the topic of wine. The reason why this topic was selected 
 
 _(Description of communication protocols_)
 
-The team will be using Git Hub, Slack, Whats App, and Zoom meetings to communicate, collaborate on activities, and provide updates on the project. 
+The team will be using GitHub, Slack, WhatsApp, and Zoom meetings to communicate, collaborate on activities, and provide updates on the project. 
 
 
 _(Description of technologies to be used)_
 
-This project will be using Google Colaboratory, Pandas, Python, Postgres, AWS, Machine Learning and Tableau.
-We will be utilizing Google Colaboratory as our main platform to build our queries, dataframes and for our machine learning. With Python, we will be building our data structures around Pandas and Matplotlib to import, clean and sift through our data. We will be using AWS and Postgres to host our dataframes, and will be utilizing Tableau's storyboard functions to showcase some of our findings as well as to display our data in an easy to digest format.
+This project will be using Google Colaboratory, Pandas, Python, PostgreSQL, AWS, Machine Learning and Tableau.
+We will be utilizing Google Colaboratory as our main platform to build our queries, dataframes and for our machine learning. With Python, we will be building our data structures around Pandas and Matplotlib to import, clean and sift through our data. We will be using AWS and PostgreSQL to host our dataframes, and will be utilizing Tableau's storyboard functions to showcase some of our findings as well as to display our data in an easy to digest format.
 
 
 _(Outline of the project (this may include images, but should be easy to follow and digest)_
@@ -35,7 +35,7 @@ The outline we have planned for the project is as follows:
   - Clean that data to start to formulate the answer to our ask. 
   - Create the appropriate machine learning model to answer the question we are studying.
   - Train the model selected.
-  - Run a confirmation analysis of our results to determine if our model was accurate and correctly diciphered the data.
+  - Run a confirmation analysis of our results to determine if our model was accurate and correctly deciphered the data.
   - Create the visuals and dashboard that support our conclusion from the data.
   - Written report and presentation based on the findings.
 
@@ -51,14 +51,14 @@ https://docs.google.com/presentation/d/1IyK6k_uIQB_v4gubVBGAtbeW--437SMfIlbHgc69
 
 **_Data Cleaning and Analysis:_**
 
-We will be using Pandas and Matplotlib to clean the data and perform an exploratory data analysis. Further analysis will be completed using a variety of Python libraries as suited for the task such as Numpy. We are using Matplotlib for its statistical powers to clean up information and preliminary graphing.  Beginning our process for feature engineering the team took a high level view of the data. A group concensus was reached to drop data columns not relevant to the analysis and to drop the Null values.  Because our original data set was made of 150,000 rows, dropping the null values would not negatively impact the final data set used to train the model on for the machine learning portion of the project.  Once dropping the data columns not relevant to the machine learning analysis and dropping the null value rows,  the data set still had 59000 rows and a focused columns of data for analysis.   The Database Storage section below describes the final dataset.
+We will be using Pandas and Matplotlib to clean the data and perform an exploratory data analysis. Further analysis will be completed using a variety of Python libraries as suited for the task such as Numpy. We are using Matplotlib for its statistical powers to clean up information and preliminary graphing.  Beginning our process for feature engineering the team took a high level view of the data. A group concensus was reached to drop data columns not relevant to the analysis and to drop the Null values.  Because our original data set was made of 150,000 rows, dropping the null values would not negatively impact the final data set used to train the model on for the machine learning portion of the project.  Once dropping the data columns not relevant to the machine learning analysis and dropping the null value rows,  the data set still had 59,000 rows and a focused columns of data for analysis.   The Database Storage section below describes the final dataset.
 
 
 **_Database Storage:_**
 
-Postgres is the database we intend to use, and AWS to host the respective database.
+PostgreSQL is the database we intend to use, and AWS RDS to host the respective database.
 
-For the database, we will be using one main table to reflect the final, cleansed data set with the intention to build another table in PostgreSQL that groups the countries within the cleansed data set into self-defined regions.  These two tables are then joined for data analysis work included in the Tableau dashboard.
+For the database, we will be using one main table to reflect the final, cleansed dataset with the intention to build another table in PostgreSQL that groups the countries within the cleansed data set into self-defined regions.  These two tables are then joined for data analysis work included in the Tableau dashboard.
 
     The main, cleansed data set contains the following fields:<br> 	  
     country<br/>
