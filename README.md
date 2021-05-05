@@ -83,7 +83,7 @@ In PostgreSQL a new server called **CodeAvengers** was created in which we estab
 The final, cleansed data set database table schema in PostgreSQL was created through Python Pandas using `cursor.execute`.  Next, the country_regions data table was populated via csv import so the joined tables (creating a new table called DATA_COMBINED), could be queried or exported as a csv file for import into other tool such as Tableau.
 
 
-### Machine Learning
+### Machine Learning:
 
 SciKitLearn is the ML library we'll be using to create a classifier. Our training and testing setup is a supervised learning model. The specificed model that will be deployed for the project will be a logistic regression model.
 
@@ -144,8 +144,11 @@ _Additional Model:  USA and Rest of World_
 
 Since we deemed the 74% accuracy score as moderately good, an additional model was executed by also factoring in country.  The data was split between USA and Rest of World and executed removing the top 1% of prices as outliers.  This execution resulted in similar accuracy score for USA but a higher accuracy score for the Rest of World data set suggesting more variability or other features being more impactful with the USA data set.  The additional models execution results are displayed below:
 
+##### USA Accuracy, Confusion Matrix, and Classification Report
+
 ![USA](images/USA_accuracy_classification.png) 
 
+##### Rest of World Accuracy, Confusion Matrix, and Classification Report
 
 ![Rest of World](images/RestWorld_accuracy_classification.png) 
 
