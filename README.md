@@ -42,7 +42,7 @@ The outline we have planned for the project is as follows:
 
 _(Presentation)_
 
-The project presentation google slides are available at the following link with a final copy uploaded into this repository:
+The project presentation google slides are available at the following link with a final copy uploaded into this repository.  The final presentation deck uploaded into this repository was downloaded in powerpoint format with included speaker notes:
 
 https://docs.google.com/presentation/d/1IyK6k_uIQB_v4gubVBGAtbeW--437SMfIlbHgc69sVU/edit#slide=id.p
 
