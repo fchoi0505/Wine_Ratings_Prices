@@ -76,7 +76,7 @@ For the database, we will be using one main table to reflect the final, cleansed
 
 The BRD screenshot below reflects both tables and the table join created in PostgreSQL.
 
-![Updated ERD](https://github.com/fchoi0505/Wine_Ratings_Prices/blob/main/Resources/UpdatedDatabase.png)
+![Updated ERD](images/UpdatedDatabase.png)
 
 In PostgreSQL a new server called **CodeAvengers** was created in which we establish the host as our AWS endpoint. Then, we created a new database called **MachineLearningProject**, which contained the tables above.
 
