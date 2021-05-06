@@ -80,7 +80,7 @@ The BRD screenshot below reflects both tables and the table join created in Post
 
 In PostgreSQL a new server called **CodeAvengers** was created in which we establish the host as our AWS endpoint. Then, we created a new database called **MachineLearningProject**, which contained the tables above.
 
-The final, cleansed data set database table schema in PostgreSQL was created through Python Pandas using `cursor.execute`.  Next, the country_regions data table was populated via csv import so the joined tables (creating a new table called DATA_COMBINED), could be queried or exported as a csv file for import into other tool such as Tableau.
+The final, cleansed data set database table schema in PostgreSQL was created through Python Pandas.  To establish the connection for our AWS RDS and PostgreSQL database, psycopg2 was imported and `cursor.execute` used.  Next, the country_regions data table was populated via csv import so the joined tables (creating a new table called DATA_COMBINED), could be queried or exported as a csv file for import into other tool such as Tableau.
 
 
 ### Machine Learning:
