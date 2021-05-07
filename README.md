@@ -8,7 +8,7 @@ This project is meant to determine whether the rating of a particular wine can b
 ## Purpose:
 _(Reason why selected topic, description of source data, questions hope to answer with the data)_
 
-The team has selected the topic of wine. The reason why this topic was selected is the wine industry is increasingly incorporating Machine Learning and AI into their business models and operations. Wine's popularity has increased among consumers and especially more so during this pandemic. Our source data is from the website winemag.com.  The data had a variety of data points such as review of each particular type of wine, its variety, the region it was grown in, country, price, and a finally a rating (e.g. points) of that particular wine. The question we hoped to answer initially was, "Is the rating/ quality of a wine predictive from one to the following year?", but through the course of the project, the question evolved to, "Is rating predictive of price for a given year?"
+The team has selected the topic of wine. The reason why this topic was selected is the wine industry is increasingly incorporating Machine Learning and AI into their business models and operations. Wine's popularity has increased among consumers and especially more so during this pandemic. Our source data is from the website winemag.com (2017 wine review data set: https://www.kaggle.com/zynicide/wine-reviews).  The data had a variety of data points such as review of each particular type of wine, its variety, the region it was grown in, country, price, and a finally a rating (e.g. points) of that particular wine. The question we hoped to answer initially was, "Is the rating/ quality of a wine predictive from one to the following year?", but through the course of the project, the question evolved to, "Is rating predictive of price for a given year?"
 
 ## Project Details:
 
@@ -42,7 +42,7 @@ The outline we have planned for the project is as follows:
 
 _(Presentation)_
 
-The project presentation google slides are available at the following link with a final copy uploaded into this repository.  The final presentation deck uploaded into this repository was downloaded in powerpoint format with included speaker notes:
+The project presentation google slides are available at the following link with a final copy uploaded into this repository.  The presentation was equally divided between the five members to share project intent, pre-processing actions, machine learning details, additional analysis performed, dashboard details, and conclusions.  The final presentation deck uploaded into this repository was downloaded in powerpoint format with includes speaker notes:
 
 https://docs.google.com/presentation/d/1IyK6k_uIQB_v4gubVBGAtbeW--437SMfIlbHgc69sVU/edit#slide=id.p
 
@@ -161,6 +161,8 @@ We will be using Tableau to visualize and story board our data for ease of use a
 
 * In the second half of the Tableau story, we are diving into the information for what were the top 5 wines produced.  We were able to identify which region produced the best wine, most cost effective wine, as well as the worst value.
 
+* Each storyboard element is interactive allowing users to focus on particular regions, countries, or wine varieties to gain more detail/understanding.
+
 The Tableau story will be posted here: https://public.tableau.com/profile/benjamin.lew8746#!/vizhome/project_wine/Thewinestory
 
 
@@ -170,7 +172,14 @@ Our results from the logistic regression model gave us a moderate correlating va
 
 These results can help wine manufacturers understand how to better effectively position their wine to get a higher rating or determine the optimal price point/price range they could target with the wine rating received.  Leveraging our team's results can then drive sales and increase revenue for the company that acts upon our findings.  This can lead to greater market share capture and growth for a winery. 
 
+## Recommendations for Future Analysis
 
-## Challenges and Difficulties Encountered
+Our initial analysis revealed other analysis options to further understand wine ratings/points and price.  For example, within the existing data set the wine review description can be used for natural language processing analysis (NLP) to determine if particular words or sentiments correlate to particular wine ratings/points or price ranges.  Further data set breakdown/binning can be performed beyond the US/Rest of World analysis we performed to further detail particular countries or provinces to predict ratings or prices per country or province.  Beyond the wine reviews and geography, further analysis can be performed to determine if particular wine varieties predict particular ratings or prices as well.
 
-This project was filled with challenges that honed and expanded the skillset of the team. The first challenge faced was Git and its function with how it operated for our project management. Git was a challenge for us due to the team not coming from a software engineering background, but a core fundamental theme of data science is the ability to problem solve and overcome adversity when least expecting it. Another challenge braved by the team was the data, as there were great features to choose from, from an engineering standpoint. This variety made it difficult to sift through the different data points and determine which points were best to compare, classify, and analyze.  This provided a real world challenge where the team had to determine data integrity and what model would be best to suit such a data set. Additionally there was the challenge of time, just as a real world scenario, where a deliverable must be given within a a deadline that is production ready. Our team endured such a constraint, and just like the Avengers from Marvel we not only rose to meet the challenge but thoroughly succeeded. 
+## Challenges and Difficulties Encountered - What Would We Do Differently?
+
+This project was filled with challenges that honed and expanded the skillset of the team. The first challenge faced was Git and its function with how it operated for our project management. Git was a challenge for us due to the team not coming from a software engineering background, but a core fundamental theme of data science is the ability to problem solve and overcome adversity when least expecting it. Quite a bit of time was used at the beginning of the project to better acquaint ourselves with Git functionality related to managing multiple branches and reviews.  In future endeavours, asking for clarifications/explanations from subject matter experts earlier would have saved some frustrations and false starts.
+
+Another challenge braved by the team was the data, as there were great features to choose from, from an engineering standpoint. This variety made it difficult to sift through the different data points and determine which points were best to compare, classify, and analyze.  In the future, the team would have reviewed available data sets first before determining a question or analysis target.  This provided a real world challenge where the team had to determine data integrity, data availability/accessibility, and what model/analysis methods would best suit such a data set.
+
+Additionally there was the challenge of time, just as a real world scenario, where a deliverable must be given within a a deadline that is production ready. Our team endured such a constraint, and just like the Avengers from Marvel we not only rose to meet the challenge but thoroughly succeeded. 
