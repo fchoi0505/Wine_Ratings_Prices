@@ -42,7 +42,7 @@ The outline we have planned for the project is as follows:
 
 _(Presentation)_
 
-The project presentation google slides are available at the following link with a final copy uploaded into this repository.  The presentation was equally divided between the five members to share project intent, pre-processing actions, machine learning details, additional analysis performed, dashboard details, and conclusions.  The final presentation deck uploaded into this repository was downloaded in powerpoint format with includes speaker notes:
+The project presentation google slides are available at the following link with a final copy uploaded into this repository.  The presentation was equally divided between the five members to share project intent, pre-processing actions, machine learning details, additional analysis performed, dashboard details, and conclusions.  The final presentation deck uploaded into this repository was downloaded in powerpoint format which includes speaker notes:
 
 https://docs.google.com/presentation/d/1IyK6k_uIQB_v4gubVBGAtbeW--437SMfIlbHgc69sVU/edit#slide=id.p
 
@@ -51,7 +51,7 @@ https://docs.google.com/presentation/d/1IyK6k_uIQB_v4gubVBGAtbeW--437SMfIlbHgc69
 
 **_Data Cleaning and Analysis:_**
 
-We will be using Pandas and Matplotlib to clean the data and perform an exploratory data analysis. Further analysis will be completed using a variety of Python libraries as suited for the task such as Numpy. We are using Matplotlib for its statistical powers to clean up information and preliminary graphing.  Beginning our process for feature engineering the team took a high level view of the data. A group concensus was reached to drop data columns not relevant to the analysis and to drop the Null values.  Because our original data set was made of 150,000 rows, dropping the null values would not negatively impact the final data set used to train the model on for the machine learning portion of the project.  Once dropping the data columns not relevant to the machine learning analysis and dropping the null value rows,  the data set still had 59,000 rows and a focused columns of data for analysis.   The Database Storage section below describes the final dataset.
+We will be using Pandas and Matplotlib to clean the data and perform an exploratory data analysis. Further analysis will be completed using a variety of Python libraries as suited for the task such as Numpy. We are using Matplotlib for its statistical powers to clean up information and preliminary graphing.  Beginning our process for feature engineering the team took a high level view of the data. A group concensus was reached to drop data columns not relevant to the analysis and to drop the Null values.  Because our original data set was made of 150,000 rows, dropping the null values would not negatively impact the final data set used to train the model (for the machine learning portion of the project).  Once dropping the data columns not relevant to the machine learning analysis and dropping the null value rows,  the data set still had 59,000 rows with focused columns of data for analysis.   The Database Storage section below describes the final dataset.
 
 
 **_Database Storage:_**
@@ -60,19 +60,19 @@ PostgreSQL is the database we intend to use, and AWS RDS to host the respective 
 
 For the database, we will be using one main table to reflect the final, cleansed dataset with the intention to build another table in PostgreSQL that groups the countries within the cleansed data set into self-defined regions.  These two tables are then joined for data analysis work included in the Tableau dashboard.
 
-    The main, cleansed data set contains the following fields:<br> 	  
-    country<br/>
-    wine_type<br/>
-    price_dollars<br/>
-    ratings_points<br/>
+    The main, cleansed data set contains the following fields: 	  
+    country
+    wine_type
+    price_dollars
+    ratings_points
 
-- This table will be used for our machine learning model & we anticipate to only pass through numerical values.
+> This table will be used for our machine learning model & we anticipate to only pass through numerical values.
 
-    The second, country_regions data set contains the following fields:<br> 	  
-    country<br/>
-    region<br/>
+      The second, country_regions data set contains the following fields:
+      country
+      region
 
-- We have classified the countries into regions and anticipate joining tables by the country column to run additional metrics.
+> We have classified the countries into regions and anticipate joining tables by the country column to run additional metrics.
 
 The BRD screenshot below reflects both tables and the table join created in PostgreSQL.
 
@@ -80,7 +80,7 @@ The BRD screenshot below reflects both tables and the table join created in Post
 
 In PostgreSQL a new server called **CodeAvengers** was created in which we establish the host as our AWS endpoint. Then, we created a new database called **MachineLearningProject**, which contained the tables above.
 
-The final, cleansed data set database table schema in PostgreSQL was created through Python Pandas.  To establish the connection for our AWS RDS and PostgreSQL database, psycopg2 was imported and `cursor.execute` used.  Next, the country_regions data table was populated via csv import so the joined tables (creating a new table called DATA_COMBINED), could be queried or exported as a csv file for import into other tool such as Tableau.
+The final, cleansed data set database table schema in PostgreSQL was created through Python Pandas.  To establish the connection for our AWS RDS and PostgreSQL database, psycopg2 was imported and `cursor.execute` used.  Next, the country_regions data table was populated via csv import so the joined tables (creating a new table called DATA_COMBINED), could be queried or exported as a csv file for import into other tools such as Tableau.
 
 
 ### Machine Learning:
